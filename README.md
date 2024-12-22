@@ -1,2 +1,16 @@
 # Bandmate
-Organization tool for Bands.
+
+## Setup
+
+### Techstack
+
+- Typescript
+- React
+- MSW + mswjs/data
+
+### Tooling
+
+- Vite
+- Prettier
+- Eslint
+- npm
