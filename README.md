@@ -8,6 +8,7 @@
 - React
 - MSW + mswjs/data
 - Material UI (Free Tier)
+- React-Router
 
 ### Tooling
 
