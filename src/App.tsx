@@ -3,13 +3,14 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { CssBaseline } from "@mui/material";
-import HomePage from "./components/pages/HomePage";
+import { RouterProvider } from "react-router";
+import { router } from "./routes/Routes";
 
 export default function App() {
   return (
     <>
       <CssBaseline />
-      <HomePage />
+      <RouterProvider router={router} />
     </>
   );
 }

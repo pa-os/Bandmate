@@ -22,6 +22,8 @@ I am a member of a band and it's really annoying to use spreadsheets for gig org
 - MSW + mswjs/data
 - Material UI (Free Tier)
 - React-Router
+- React-Hook-Form-MUI
+- SWR
 
 ### Tooling
 
@@ -29,3 +31,12 @@ I am a member of a band and it's really annoying to use spreadsheets for gig org
 - Prettier
 - Eslint
 - npm
+
+## Troubleshooting
+
+- Browser shows "426 Upgrade Required" --> Change server port.
+
+## Plans
+
+- Add OAuth providers
+- Add Error Boundries

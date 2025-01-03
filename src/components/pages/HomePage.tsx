@@ -1,7 +1,10 @@
 import { Box, Container, Typography } from "@mui/material";
+import { useAuth } from "../../hooks/useAuth";
 import AppMenuBar from "../organisms/AppMenuBar";
 
 export default function HomePage() {
+  const { authInfo } = useAuth();
+
   return (
     <Box
       sx={{
@@ -20,7 +23,9 @@ export default function HomePage() {
           height: "100%",
         }}
       >
-        <Typography>Hello there!</Typography>
+        <Typography>
+          Hello there, {authInfo?.user.displayname || "Anonymous"}!
+        </Typography>
       </Container>
     </Box>
   );
